@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-31T18:53:51 IST" name="Default suite" finished-at="2024-12-31T18:54:16 IST" duration-ms="24827">
+    <groups>
+    </groups>
+    <test started-at="2024-12-31T18:53:51 IST" name="Default test" finished-at="2024-12-31T18:54:16 IST" duration-ms="24827">
+      <class name="com.APITest.TelecomApi">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:53:51 IST" name="setup" finished-at="2024-12-31T18:53:54 IST" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddUser()[pri:1, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:53:54 IST" name="testAddUser" finished-at="2024-12-31T18:54:02 IST" duration-ms="8689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+        <test-method signature="testGetUserProfile()[pri:2, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:02 IST" name="testGetUserProfile" finished-at="2024-12-31T18:54:04 IST" depends-on-methods="com.APITest.TelecomApi.testAddUser" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserProfile -->
+        <test-method signature="testUpdateUser()[pri:3, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:04 IST" name="testUpdateUser" finished-at="2024-12-31T18:54:05 IST" depends-on-methods="com.APITest.TelecomApi.testAddUser" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testLoginUser()[pri:4, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:05 IST" name="testLoginUser" finished-at="2024-12-31T18:54:07 IST" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method signature="testAddContact()[pri:5, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:07 IST" name="testAddContact" finished-at="2024-12-31T18:54:08 IST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddContact -->
+        <test-method signature="testGetContactList()[pri:6, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:08 IST" name="testGetContactList" finished-at="2024-12-31T18:54:10 IST" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetContactList -->
+        <test-method signature="testGetContactById()[pri:7, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:10 IST" name="testGetContactById" finished-at="2024-12-31T18:54:11 IST" depends-on-methods="com.APITest.TelecomApi.testAddContact" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetContactById -->
+        <test-method signature="testUpdateContact()[pri:8, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:11 IST" name="testUpdateContact" finished-at="2024-12-31T18:54:13 IST" depends-on-methods="com.APITest.TelecomApi.testAddContact" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateContact -->
+        <test-method signature="testUpdatePartialContact()[pri:9, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:13 IST" name="testUpdatePartialContact" finished-at="2024-12-31T18:54:14 IST" depends-on-methods="com.APITest.TelecomApi.testAddContact" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePartialContact -->
+        <test-method signature="testLogoutUser()[pri:10, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:14 IST" name="testLogoutUser" finished-at="2024-12-31T18:54:15 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.APITest.TelecomApi@6aba2b86]" started-at="2024-12-31T18:54:15 IST" name="tearDown" finished-at="2024-12-31T18:54:16 IST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.APITest.TelecomApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
